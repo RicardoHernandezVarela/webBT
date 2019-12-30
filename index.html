@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEBbt</title>
+
+    <!-- materialize icons, css & js -->
+    <link type="text/css" href="/css/materialize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" href="/css/bt.css" rel="stylesheet">
+    <script type="text/javascript" src="/js/materialize.min.js"></script>
+
+</head>
+<body>
+    <h5 class="headerBT">
+        WEB BLE
+    </h5>
+    <div class="wrapper">
+        <a class="btn-floating btn-small waves-effect waves-light red conectarBT" id="conectar">
+            <i class="material-icons">bluetooth</i>
+        </a>
+
+        <a class="btn-floating btn-small waves-effect waves-light red desconectarBT" id="desconectar">
+            <i class="material-icons">bluetooth_disabled</i>
+        </a>
+
+        <a class="btn-floating btn-small waves-effect waves-light red iniciarBT" id="iniciar">
+            <i class="material-icons">play_arrow</i>
+        </a>
+
+        <a class="btn-floating btn-small waves-effect waves-light red pararBT" id="parar">
+            <i class="material-icons">stop</i>
+        </a>
+
+    </div>
+
+    <div class="mensajes">
+        Conectate con un dispositivo.
+    </div>
+
+    <script src="/js/bluetooth.js"></script>
+</body>
+</html>

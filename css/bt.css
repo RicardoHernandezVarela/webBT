@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5c6bc0;
+}
+
+.headerBT {
+    margin-top: 15px; 
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 80px;
+
+    margin: 60px auto;
+
+}
+
+.conectarBT {
+    grid-column: 3 / 4;
+}
+
+.desconectarBT {
+    grid-column: 4 / 5;
+}
+
+.iniciarBT {
+    grid-column: 5 / 6;
+}
+
+.pararBT {
+    grid-column: 6 / 7;
+}
+
+.mensajes {
+    text-align: center;
+    color: #fff;
+
+}
+
+.btn-small {
+    margin: 0 auto;
+}
