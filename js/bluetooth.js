@@ -130,6 +130,7 @@ let datosSensor = [];
 
 const recibirDatos = (data) => {
     datosSensor.push(data);
+    terminal.innerText = datosSensor.length;
 };
 
 const manejarCambios = (event) => {
@@ -167,7 +168,6 @@ iniciar.addEventListener('click', () => {
     console.log('play', caracteristica);
     if(!!caracteristica) {
         send(caracteristica, 'i');
-        terminal.innerText = datosSensor.length;
     } else {
         terminal.innerText = 'Ningún dispositivo conectado';
     }
